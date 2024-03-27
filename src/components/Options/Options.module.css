@@ -29,7 +29,7 @@
     padding: 0;
 }
   .item:hover {
-    background-color: azure;
-    color: royalblue;
-    border: 2px solid royalblue;
+    background-color: rgb(249, 221, 10);
+    color: rgb(1, 3, 8);
+    border: 2px solid rgb(2, 3, 7);
   }
