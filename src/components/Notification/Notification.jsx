@@ -1,4 +1,7 @@
-const Notification = ()=>{
-    return <p>No feedback yet</p>
+import css from "../Description/Description.module.css";
+
+const Notification = () => {
+  return <p className={css.description}>No feedback here yet</p>;
 };
+
 export default Notification;

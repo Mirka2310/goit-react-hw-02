@@ -1,0 +1,35 @@
+.list {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    padding: 0;
+  }
+  
+  .item {
+    border: none;
+    border-radius: 10px;
+    background-color: royalblue;
+    width: 120px;
+    height: 48px;
+    color: azure;
+    font-size: 18px;
+    font-weight: 500;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+  .item button {
+    border: none;
+    background: none;
+    color: azure;
+    font-size: 18px;
+    cursor: pointer; 
+    outline: none;
+    padding: 0;
+}
+  .item:hover {
+    background-color: azure;
+    color: royalblue;
+    border: 2px solid royalblue;
+  }

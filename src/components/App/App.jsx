@@ -3,6 +3,8 @@ import Description from "../Description/Description";
 import Options from "../Options/Options";
 import Feedback from "../Feedback/Feedback";
 import Notification from "../Notification/Notification";
+import styles from "./App.module.css";
+
 
 const initFeedback = {
 	good: 0,
@@ -64,7 +66,7 @@ function App() {
 			: 0;
 
 	return (
-		<>
+		<div className={styles.container}>
 			<Description />
 			<Options
 				totalFeedback={totalFeedback}
@@ -80,7 +82,7 @@ function App() {
 			) : (
 				<Notification />
 			)}
-		</>
+		</div>
 	);
 }
 
